@@ -49,13 +49,19 @@
 
   Add your screenshots here:
 
-  ![ALT TEXT](URL)
+<img width="1437" alt="Screen Shot 2023-04-03 at 11 15 22 AM" src="https://user-images.githubusercontent.com/92850947/229581133-6d54873b-de5e-4ccd-aaca-23447451e1fe.png">
+
+<img width="1440" alt="Screen Shot 2023-04-03 at 11 15 29 AM" src="https://user-images.githubusercontent.com/92850947/229581212-1ab3e116-55a3-4e27-b6f9-340b463f0538.png">
+
+<img width="1429" alt="Screen Shot 2023-04-03 at 11 15 38 AM" src="https://user-images.githubusercontent.com/92850947/229581246-e66e8b59-5bd2-4b5a-8faf-d37e6c74f032.png">
+
+<img width="745" alt="Screen Shot 2023-04-03 at 11 15 48 AM" src="https://user-images.githubusercontent.com/92850947/229581286-af30c4b1-e9d5-42cb-96e1-074a9d2fd39f.png">
 
 ## **Links**
   
   Add any relevant links for this project below:
 
-  [Your Website](URL)
+  [Portfolio](https://fluffy-torte-8420f6.netlify.app)
 
 ## License
 
