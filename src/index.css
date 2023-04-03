@@ -1,3 +1,11 @@
+:root {
+  --main: #efecca;
+  --secondary: #a9cbb7;
+  --third: #f7ff58;
+  --fourth: #ff934f;
+  --fifth: #5e565a;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +19,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* @media (max-width: 910px) {
+  .image {
+    position: relative;
+  }
+  .home-stack {
+    display: flex;
+    flex-direction: column;
+  }
+} */
