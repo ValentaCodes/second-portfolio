@@ -6,9 +6,18 @@ import Projects from '../../pages/Projects';
 import Home from '../../pages/Home';
 import diveIn from '../../assets/divein.png';
 import flickPick from '../../assets/flickpick.png';
+import logicLounge from '../../assets/logicLounge.png';
 import { Stack } from '@mui/material';
+// import Footer from '../Footer/Footer';
 
 const content = [
+  {
+    photo: logicLounge,
+    title: 'Logic Lounge',
+    repo: 'https://github.com/kfarshchian/Logic-Lounge',
+    site: 'https://logic-lounge-production.up.railway.app/',
+    about: 'A technical learning platform',
+  },
   {
     photo: diveIn,
     title: 'DiveIn Boat Rentals',
