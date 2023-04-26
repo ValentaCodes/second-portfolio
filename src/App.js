@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 import PortContain from './components/PortContain/PortContain';
 
 

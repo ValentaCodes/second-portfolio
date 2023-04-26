@@ -98,6 +98,10 @@ const ContactForm = () => {
             value='Send'
             onClick={sendEmail}
           />
+          <Typography variant='h7'>
+            {' '}
+            or email directly at ValentaCodes@gmail.com
+          </Typography>
         </Box>
       </Container>
     </>

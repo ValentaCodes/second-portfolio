@@ -1,0 +1,15 @@
+img {
+    max-width: 40rem;
+}
+
+@media screen and (max-width: 565px) {
+    img {
+        max-width: 31rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    img {
+        max-width: 20rem;
+    }
+}

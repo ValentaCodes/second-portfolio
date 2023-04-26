@@ -1,0 +1,11 @@
+/* .icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem;
+} */
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}

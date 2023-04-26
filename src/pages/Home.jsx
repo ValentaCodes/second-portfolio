@@ -6,8 +6,7 @@ import photo from '../assets/photoCutout.png';
 import { ImageList, ImageListItem } from '@mui/material';
 import TimeLine from '../components/Timeline/Timeline';
 import ContactForm from '../components/ContactForm/ContactForm';
-// import Projects from './Projects';
-
+import Skills from '../components/Skills/Skills';
 function Home() {
   return (
     <>
@@ -47,7 +46,7 @@ function Home() {
         </ImageList>
       </Stack>
       <TimeLine />
-      {/* <Projects /> */}
+      <Skills />
       <ContactForm />
     </>
   );
