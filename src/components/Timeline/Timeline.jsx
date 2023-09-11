@@ -12,6 +12,7 @@ import {
   QuestionMarkOutlined,
   ComputerTwoTone,
   SchoolTwoTone,
+  Work,
 } from '@mui/icons-material';
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
@@ -63,10 +64,10 @@ export default function TimeLine() {
                 </Typography>
               </TimelineOppositeContent>
               <TimelineSeparator>
-                <TimelineDot variant='outlined' color='primary'>
-                  <ComputerTwoTone />
+                <TimelineDot color='success'>
+                  <Work />
                 </TimelineDot>
-                <TimelineConnector sx={{ bgcolor: 'primary.main' }} />
+                <TimelineConnector sx={{ bgcolor: 'success.main' }} />
               </TimelineSeparator>
               <TimelineContent>
                 <Typography
@@ -76,8 +77,26 @@ export default function TimeLine() {
                 >
                   Ancestry.com
                 </Typography>
-                <Typography>May 2023 - Current</Typography>
+                <Typography>May 2023 - September 2023</Typography>
               </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+              <TimelineOppositeContent>
+                <Typography
+                  variant='h6'
+                  component={'span'}
+                  sx={{ fontFamily: 'Oswald', color: 'black' }}
+                >
+                  Actively Applying
+                </Typography>
+              </TimelineOppositeContent>
+              <TimelineSeparator>
+                <TimelineDot variant='outlined' color='primary'>
+                  <ComputerTwoTone />
+                </TimelineDot>
+                <TimelineConnector sx={{ bgcolor: 'primary.main' }} />
+              </TimelineSeparator>
+              <TimelineContent />
             </TimelineItem>
             <TimelineItem>
               <TimelineSeparator>
