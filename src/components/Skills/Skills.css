@@ -8,4 +8,16 @@ ul {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  margin: 0 12px 0 0;
+  padding: 8px 8px 8px 8px;
+}
+
+.icons .icon {
+  font-size: 6rem;
+}
+
+@media screen and (max-width: 400px) {
+    .icons .icon {
+      font-size: 4rem;
+  }
 }

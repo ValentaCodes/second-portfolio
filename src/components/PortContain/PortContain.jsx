@@ -8,7 +8,6 @@ import diveIn from '../../assets/divein.png';
 import flickPick from '../../assets/flickpick.png';
 import logicLounge from '../../assets/logicLounge.png';
 import { Stack } from '@mui/material';
-// import Footer from '../Footer/Footer';
 
 const content = [
   {

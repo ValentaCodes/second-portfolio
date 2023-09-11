@@ -24,16 +24,16 @@ const Skills = () => {
         <Box>
           <Typography variant='h5'>Front-end Tech</Typography>
           <ul>
-            <Icon sx={{ fontSize: '6rem' }}>
+            <Icon className='icon'>
               <SiReact />
             </Icon>
-            <Icon sx={{ fontSize: '6rem' }}>
+            <Icon className='icon'>
               <SiJavascript />
             </Icon>
-            <Icon sx={{ fontSize: '6rem' }}>
+            <Icon className='icon'>
               <SiCss3 />
             </Icon>
-            <Icon sx={{ fontSize: '6rem' }}>
+            <Icon className='icon'>
               <SiHtml5 />
             </Icon>
           </ul>
@@ -41,19 +41,19 @@ const Skills = () => {
         <Box>
           <Typography variant='h5'>Back-end Tech</Typography>
           <ul>
-            <Icon sx={{ fontSize: '6rem' }}>
+            <Icon className='icon'>
               <SiNodedotjs />
             </Icon>
-            <Icon sx={{ fontSize: '6rem' }}>
+            <Icon className='icon'>
               <SiMongodb />
             </Icon>
-            <Icon sx={{ fontSize: '6rem' }}>
+            <Icon className='icon'>
               <SiMysql />
             </Icon>
-            <Icon sx={{ fontSize: '6rem' }}>
+            <Icon className='icon'>
               <SiGraphql />
             </Icon>
-            <Icon sx={{ fontSize: '6rem' }}>
+            <Icon className='icon'>
               <SiExpress />
             </Icon>
           </ul>
@@ -61,13 +61,13 @@ const Skills = () => {
         <Box>
           <Typography variant='h5'>Extra</Typography>
           <ul>
-            <Icon sx={{ fontSize: '6rem' }}>
+            <Icon className='icon'>
               <SiGithub />
             </Icon>
-            <Icon sx={{ fontSize: '6rem' }}>
+            <Icon className='icon'>
               <SiMui />
             </Icon>
-            <Icon sx={{ fontSize: '6rem' }}>
+            <Icon className='icon'>
               <SiRailway />
             </Icon>
           </ul>
