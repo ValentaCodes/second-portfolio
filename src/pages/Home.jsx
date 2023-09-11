@@ -7,6 +7,7 @@ import { ImageList, ImageListItem } from '@mui/material';
 import TimeLine from '../components/Timeline/Timeline';
 import ContactForm from '../components/ContactForm/ContactForm';
 import Skills from '../components/Skills/Skills';
+
 function Home() {
   return (
     <>
