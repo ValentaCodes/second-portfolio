@@ -28,6 +28,17 @@ function Navbar({ currentPage, handlePageChange }) {
     <AppBar position='static' sx={{ backgroundColor: 'black' }}>
       <Container maxWidth='xl' sx={{ padding: '0 8px 0 8px' }}>
         <Toolbar disableGutters>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'flex' } }}>
+            <IconButton
+              size='large'
+              aria-label='Navbar'
+              aria-controls='menu-appbar'
+              aria-haspopup='true'
+              onClick={handleOpenNavMenu}
+              color='inherit'
+            >
+              <MenuIcon />
+            </IconButton>
           <Typography
             variant='h6'
             noWrap
@@ -41,21 +52,12 @@ function Navbar({ currentPage, handlePageChange }) {
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
+              flexDirection: "column",
+              justifyContent:"center",
             }}
           >
             Cornelius Davis
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-            <IconButton
-              size='large'
-              aria-label='Navbar'
-              aria-controls='menu-appbar'
-              aria-haspopup='true'
-              onClick={handleOpenNavMenu}
-              color='inherit'
-            >
-              <MenuIcon />
-            </IconButton>
             <Menu
               id='menu-appbar'
               anchorEl={anchorElNav}
@@ -71,7 +73,7 @@ function Navbar({ currentPage, handlePageChange }) {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', md: 'none' },
+                display: { xs: 'block', md: 'block', lg: "block" },
               }}
             >
               {pages.map((page) => (
