@@ -26,7 +26,7 @@ function Navbar({ currentPage, handlePageChange }) {
 
   return (
     <AppBar position='static' sx={{ backgroundColor: 'black' }}>
-      <Container maxWidth='xl'>
+      <Container maxWidth='xl' sx={{ padding: '0 8px 0 8px' }}>
         <Toolbar disableGutters>
           <Typography
             variant='h6'
@@ -87,20 +87,17 @@ function Navbar({ currentPage, handlePageChange }) {
             component='a'
             href=''
             sx={{
-              mr: 2,
-              padding: 0,
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: 'monospace',
               fontWeight: 700,
-              letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
           >
             Cornelius Davis
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none' } }}>
             {pages.map((page) => (
               <Button
                 href={`#${page}`}
