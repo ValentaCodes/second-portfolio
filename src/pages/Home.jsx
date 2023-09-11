@@ -32,7 +32,7 @@ function Home() {
           curiously creating.
         </Typography>
         <ImageList
-          sx={{ height: 550 }}
+          sx={{ height: 555 }}
           cols={1}
           rowHeight={900}
           className={'image'}
