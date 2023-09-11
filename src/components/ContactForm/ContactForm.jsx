@@ -88,8 +88,8 @@ const ContactForm = () => {
             label='Message'
             margin='normal'
             multiline
-            rows={4}
-            sx={{ width: '30rem' }}
+            rows={3}
+            sx={{minWidth: "20rem"}}
           />
           <Input
             variant='filled'
