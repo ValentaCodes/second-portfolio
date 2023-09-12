@@ -8,7 +8,7 @@ import {
   SiHtml5,
   SiExpress,
   SiMysql,
-  SiGithub,
+  SiGit,
   SiMui,
   SiRailway,
   SiJavascript,
@@ -62,7 +62,7 @@ const Skills = () => {
           <Typography variant='h5'>Extra</Typography>
           <ul>
             <Icon className='icon'>
-              <SiGithub />
+              <SiGit />
             </Icon>
             <Icon className='icon'>
               <SiMui />

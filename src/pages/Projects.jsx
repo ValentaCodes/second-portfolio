@@ -9,10 +9,11 @@ import {
   Card,
   Tooltip,
 } from '@mui/material';
+import './styles/Projects.css'
 
 function Projects(props) {
   return (
-    <Card sx={{ width: 450 }}>
+    <Card sx={{ width: 450 }} className='projectCard'>
       <CardContent>
           <Typography variant='h6' component={'div'}>
             {props.title}
