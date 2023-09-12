@@ -77,7 +77,7 @@ function Navbar({ currentPage, handlePageChange }) {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={() => handlePageChange(page)}>
+                <MenuItem key={page} onClick={() => [handlePageChange(page), handleCloseNavMenu()]}>
                   <Typography textAlign='center'>{page}</Typography>
                 </MenuItem>
               ))}
