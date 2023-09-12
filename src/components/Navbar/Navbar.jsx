@@ -25,8 +25,8 @@ function Navbar({ currentPage, handlePageChange }) {
   };
 
   return (
-    <AppBar position='static' sx={{ backgroundColor: 'black' }}>
-      <Container maxWidth='xl' sx={{ padding: '0 8px 0 8px' }}>
+    <AppBar position='static' sx={{ backgroundColor: 'black'}}>
+      <Container maxWidth='xxl' sx={{ padding: '0 8px 0 8px'}}>
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'flex' } }}>
             <IconButton
