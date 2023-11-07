@@ -24,7 +24,6 @@ function Projects(props) {
         component='img'
         height='240'
         image={props.photo}
-        alt='Dive In website'
         />
         </Tooltip>
       <CardActions>
