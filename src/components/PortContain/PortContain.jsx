@@ -6,10 +6,19 @@ import Projects from '../../pages/Projects';
 import Home from '../../pages/Home';
 import diveIn from '../../assets/divein.png';
 import flickPick from '../../assets/flickpick.png';
+import moodLens from '../../assets/moodlens.png';
 import logicLounge from '../../assets/logicLounge.png';
 import { Stack } from '@mui/material';
 
 const content = [
+  {
+    photo: moodLens,
+    title: 'MoodLens',
+    repo: 'https://github.com/ValentaCodes/MoodLens',
+    site: 'https://mood-lens.vercel.app/',
+    about:
+      'MoodLens leverages advanced artificial intelligence to analyze and rank the mood of your journal entries',
+  },
   {
     photo: logicLounge,
     title: 'Logic Lounge',
@@ -61,6 +70,7 @@ function PortContain() {
             direction={{ sm: 'column', lg: 'row' }}
             spacing={{ xs: 1, sm: 2, md: 4 }}
             my={4}
+            mx={4}
             justifyContent='center'
             alignItems='center'
           >
