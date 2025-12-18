@@ -44,65 +44,65 @@ const ContactForm = () => {
 
   return (
     <>
-      <Container sx={{ marginBottom: '5rem' }}>
-        <Typography variant='h6'>Contact Me</Typography>
-        <Box
-          component={'form'}
-          ref={form}
-          // onSubmit={sendEmail}
-          sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-          }}
-        >
-          <TextField
-            required
-            sx={{ width: '20rem' }}
-            id='name-contact'
-            label='Name'
-            margin='normal'
-            name='from_name'
-          />
-          <TextField
-            sx={{ width: '20rem' }}
-            id='email-contact'
-            name='from_email'
-            label='Email'
-            margin='normal'
-            value={email}
-            onChange={handleInputChange}
-            required
-          />
-          <TextField
-            sx={{ width: '20rem' }}
-            id='phone-contact'
-            label='Phone'
-            name='phone'
-            margin='normal'
-          />
-          <TextField
-            required
-            id='message-contact'
-            name='message'
-            label='Message'
-            margin='normal'
-            multiline
-            rows={3}
-            sx={{minWidth: "20rem"}}
-          />
-          <Input
-            variant='filled'
-            id='submit-contact'
-            type='submit'
-            value='Send'
-            onClick={sendEmail}
-            sx={{margin: "8px 0px 0px 0px"}}
-          />
+      <Container sx={{ marginBottom: '5rem', paddingTop: "12px" , fontSize: "20px"}}>
+        {/*<Typography variant='h6'>Contact Me</Typography>*/}
+        {/*<Box*/}
+        {/*  component={'form'}*/}
+        {/*  ref={form}*/}
+        {/*  onSubmit={sendEmail}*/}
+        {/*  sx={{*/}
+        {/*    display: 'flex',*/}
+        {/*    flexDirection: 'column',*/}
+        {/*    alignItems: 'center',*/}
+        {/*  }}*/}
+        {/*>*/}
+        {/*  <TextField*/}
+        {/*    required*/}
+        {/*    sx={{ width: '20rem' }}*/}
+        {/*    id='name-contact'*/}
+        {/*    label='Name'*/}
+        {/*    margin='normal'*/}
+        {/*    name='from_name'*/}
+        {/*  />*/}
+        {/*  <TextField*/}
+        {/*    sx={{ width: '20rem' }}*/}
+        {/*    id='email-contact'*/}
+        {/*    name='from_email'*/}
+        {/*    label='Email'*/}
+        {/*    margin='normal'*/}
+        {/*    value={email}*/}
+        {/*    onChange={handleInputChange}*/}
+        {/*    required*/}
+        {/*  />*/}
+        {/*  <TextField*/}
+        {/*    sx={{ width: '20rem' }}*/}
+        {/*    id='phone-contact'*/}
+        {/*    label='Phone'*/}
+        {/*    name='phone'*/}
+        {/*    margin='normal'*/}
+        {/*  />*/}
+        {/*  <TextField*/}
+        {/*    required*/}
+        {/*    id='message-contact'*/}
+        {/*    name='message'*/}
+        {/*    label='Message'*/}
+        {/*    margin='normal'*/}
+        {/*    multiline*/}
+        {/*    rows={3}*/}
+        {/*    sx={{minWidth: "20rem"}}*/}
+        {/*  />*/}
+        {/*  <Input*/}
+        {/*    variant='filled'*/}
+        {/*    id='submit-contact'*/}
+        {/*    type='submit'*/}
+        {/*    value='Send'*/}
+        {/*    onClick={sendEmail}*/}
+        {/*    sx={{margin: "8px 0px 0px 0px"}}*/}
+        {/*  />*/}
           <Typography variant='h7' sx={{margin: "8px 0px 8px 0px"}}>
-            or contact directly at ValentaCodes@gmail.com
+            Contact directly at ValentaCodes@gmail.com
           </Typography>
-        </Box>
+        {/*</Box>*/}
       </Container>
     </>
   );

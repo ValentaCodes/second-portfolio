@@ -9,10 +9,9 @@ import {
   TimelineItem,
 } from '@mui/lab';
 import {
-  QuestionMarkOutlined,
-  ComputerTwoTone,
-  SchoolTwoTone,
-  Work,
+  QuestionMarkOutlined, SchoolSharp,
+  SchoolTwoTone, SearchSharp, TimelineSharp, ViewTimelineRounded, ViewTimelineSharp,
+  Work, WorkHistory, WorkHistoryRounded, WorkHistoryTwoTone, WorkTwoTone,
 } from '@mui/icons-material';
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
@@ -33,12 +32,12 @@ export default function TimeLine() {
                   component={'span'}
                   sx={{ fontFamily: 'Oswald', color: 'black' }}
                 >
-                  Student
+                  B.S Computer Science
                 </Typography>
               </TimelineOppositeContent>
               <TimelineSeparator>
-                <TimelineDot color='success'>
-                  <SchoolTwoTone />
+                <TimelineDot variant='outlined' color='primary'>
+                  <SchoolSharp />
                 </TimelineDot>
                 <TimelineConnector sx={{ bgcolor: 'success.main' }} />
               </TimelineSeparator>
@@ -50,7 +49,7 @@ export default function TimeLine() {
                 >
                   University of Utah
                 </Typography>
-                <Typography> Graduated April 2023</Typography>
+                <Typography> Pursing </Typography>
               </TimelineContent>
             </TimelineItem>
             <TimelineItem>
@@ -65,7 +64,7 @@ export default function TimeLine() {
               </TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineDot color='success'>
-                  <Work />
+                  <WorkTwoTone />
                 </TimelineDot>
                 <TimelineConnector sx={{ bgcolor: 'success.main' }} />
               </TimelineSeparator>
@@ -87,24 +86,43 @@ export default function TimeLine() {
                   component={'span'}
                   sx={{ fontFamily: 'Oswald', color: 'black' }}
                 >
-                  Actively Applying
+                  GIS Software Engineer Intern
                 </Typography>
               </TimelineOppositeContent>
               <TimelineSeparator>
-                <TimelineDot variant='outlined' color='primary'>
-                  <ComputerTwoTone />
+                <TimelineDot variant='filled' color='success'>
+                  <WorkTwoTone />
                 </TimelineDot>
                 <TimelineConnector sx={{ bgcolor: 'primary.main' }} />
               </TimelineSeparator>
-              <TimelineContent />
+              <TimelineContent>
+                <Typography
+                    variant='h6'
+                    component={'span'}
+                    sx={{ fontFamily: 'Oswald', color: 'black' }}
+                >
+                  University of Utah
+                </Typography>
+                <Typography> April 2025 - December 2025</Typography>
+              </TimelineContent>
             </TimelineItem>
             <TimelineItem>
+              <TimelineOppositeContent>
+                <Typography
+                  variant='h6'
+                  component={'span'}
+                  sx={{ fontFamily: 'Oswald', color: 'black' }}
+                >
+                  Seeking Opportunities
+                </Typography>
+              </TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineDot variant='outlined' color='grey'>
-                  <QuestionMarkOutlined />
+                  <SearchSharp />
                 </TimelineDot>
               </TimelineSeparator>
-              <TimelineContent></TimelineContent>
+              <TimelineContent>
+              </TimelineContent>
             </TimelineItem>
           </Timeline>
         </Box>

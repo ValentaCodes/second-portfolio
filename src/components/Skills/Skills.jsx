@@ -11,9 +11,14 @@ import {
   SiGit,
   SiMui,
   SiRailway,
-  SiJavascript,
+  SiJavascript
 } from 'react-icons/si';
+
+import {
+  FaJava
+} from "react-icons/fa";
 import './Skills.css';
+
 import React from 'react';
 
 const Skills = () => {
@@ -38,9 +43,12 @@ const Skills = () => {
             </Icon>
           </ul>
         </Box>
-        <Box>
+        <Box paddingTop={"12px"}>
           <Typography variant='h5'>Back-end Tech</Typography>
           <ul>
+            <Icon className='icon'>
+              <FaJava />
+            </Icon>
             <Icon className='icon'>
               <SiNodedotjs />
             </Icon>
