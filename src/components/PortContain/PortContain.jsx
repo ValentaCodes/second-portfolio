@@ -19,20 +19,20 @@ const content = [
     about:
       'MoodLens leverages advanced artificial intelligence to analyze and rank the mood of your journal entries',
   },
-  {
-    photo: logicLounge,
-    title: 'Logic Lounge',
-    repo: 'https://github.com/kfarshchian/Logic-Lounge',
-    site: 'https://logic-lounge-production.up.railway.app/',
-    about: 'A technical learning platform',
-  },
-  {
-    photo: diveIn,
-    title: 'DiveIn Boat Rentals',
-    repo: 'https://github.com/ValentaCodes/DiveIn',
-    site: 'https://divein-production.up.railway.app/',
-    about: 'Boat rentals, simplified.',
-  },
+  // {
+  //   photo: logicLounge,
+  //   title: 'Logic Lounge',
+  //   repo: 'https://github.com/kfarshchian/Logic-Lounge',
+  //   site: 'https://logic-lounge-production.up.railway.app/',
+  //   about: 'A technical learning platform',
+  // },
+  // {
+  //   photo: diveIn,
+  //   title: 'DiveIn Boat Rentals',
+  //   repo: 'https://github.com/ValentaCodes/DiveIn',
+  //   site: 'https://divein-production.up.railway.app/',
+  //   about: 'Boat rentals, simplified.',
+  // },
   {
     photo: flickPick,
     title: 'Flick Picker',
@@ -49,20 +49,20 @@ function PortContain() {
     if (currentPage === 'About Me') {
       return <AboutMe />;
     }
-    if (currentPage === 'Resume') {
-      return (
-        <>
-          <Stack
-            direction={'column-reverse'}
-            justifyContent='center'
-            alignItems='center'
-            my={4}
-          >
-            <Resume />
-          </Stack>
-        </>
-      );
-    }
+    // if (currentPage === 'Resume') {
+    //   return (
+    //     <>
+    //       <Stack
+    //         direction={'column-reverse'}
+    //         justifyContent='center'
+    //         alignItems='center'
+    //         my={4}
+    //       >
+    //         <Resume />
+    //       </Stack>
+    //     </>
+    //   );
+    // }
     if (currentPage === 'Projects') {
       return (
         <>

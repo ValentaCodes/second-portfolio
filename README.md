@@ -1,8 +1,10 @@
 # Portfolio
 
-<a href="https://choosealicense.com/licenses/mit">
-<img src="https://img.shields.io/badge/License-MIT-blue" />
-</a>
+[//]: # (<a href="https://choosealicense.com/licenses/mit">)
+
+[//]: # (<img src="https://img.shields.io/badge/License-MIT-blue" />)
+
+[//]: # (</a>)
 
 ## *Table of Contents*
 

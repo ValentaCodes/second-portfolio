@@ -14,7 +14,7 @@ import { GitHub, LinkedIn } from '@mui/icons-material';
 import { Tooltip } from '@mui/material';
 
 function Navbar({ currentPage, handlePageChange }) {
-  const pages = ['Home', 'Projects', 'Resume'];
+  const pages = ['Home', 'Projects'];
   const [anchorElNav, setAnchorElNav] = useState(null);
 
   const handleOpenNavMenu = (e) => {
