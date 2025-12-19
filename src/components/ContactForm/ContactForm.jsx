@@ -1,108 +1,13 @@
-import React, { useRef, useState } from 'react';
-import { Box, Container, Input, TextField, Typography } from '@mui/material';
-import emailjs from '@emailjs/browser';
-import { validateEmail } from '../../utils/validateEmail';
+import React from 'react';
+import { Container, Typography } from '@mui/material';
 
 const ContactForm = () => {
-  const form = useRef();
-  const [email, setEmail] = useState('');
-
-  const handleInputChange = (e) => {
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
-
-    if (inputType === 'from_email') {
-      setEmail(inputValue);
-    }
-  };
-
-  const sendEmail = (event) => {
-    event.preventDefault();
-
-    if (!validateEmail(email)) {
-      alert('Must enter valid email');
-      return;
-    }
-    try {
-      emailjs
-        .sendForm(
-          'service_pvl7hfo',
-          'template_rw5llmp',
-          form.current,
-          '9K8ci3t-pdNAW58Y1'
-        )
-        .then((result) => {
-          console.info(result.text);
-          document.location.reload();
-        });
-      setEmail('');
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
   return (
     <>
-      <Container sx={{ marginBottom: '5rem', paddingTop: "12px" , fontSize: "20px"}}>
-        {/*<Typography variant='h6'>Contact Me</Typography>*/}
-        {/*<Box*/}
-        {/*  component={'form'}*/}
-        {/*  ref={form}*/}
-        {/*  onSubmit={sendEmail}*/}
-        {/*  sx={{*/}
-        {/*    display: 'flex',*/}
-        {/*    flexDirection: 'column',*/}
-        {/*    alignItems: 'center',*/}
-        {/*  }}*/}
-        {/*>*/}
-        {/*  <TextField*/}
-        {/*    required*/}
-        {/*    sx={{ width: '20rem' }}*/}
-        {/*    id='name-contact'*/}
-        {/*    label='Name'*/}
-        {/*    margin='normal'*/}
-        {/*    name='from_name'*/}
-        {/*  />*/}
-        {/*  <TextField*/}
-        {/*    sx={{ width: '20rem' }}*/}
-        {/*    id='email-contact'*/}
-        {/*    name='from_email'*/}
-        {/*    label='Email'*/}
-        {/*    margin='normal'*/}
-        {/*    value={email}*/}
-        {/*    onChange={handleInputChange}*/}
-        {/*    required*/}
-        {/*  />*/}
-        {/*  <TextField*/}
-        {/*    sx={{ width: '20rem' }}*/}
-        {/*    id='phone-contact'*/}
-        {/*    label='Phone'*/}
-        {/*    name='phone'*/}
-        {/*    margin='normal'*/}
-        {/*  />*/}
-        {/*  <TextField*/}
-        {/*    required*/}
-        {/*    id='message-contact'*/}
-        {/*    name='message'*/}
-        {/*    label='Message'*/}
-        {/*    margin='normal'*/}
-        {/*    multiline*/}
-        {/*    rows={3}*/}
-        {/*    sx={{minWidth: "20rem"}}*/}
-        {/*  />*/}
-        {/*  <Input*/}
-        {/*    variant='filled'*/}
-        {/*    id='submit-contact'*/}
-        {/*    type='submit'*/}
-        {/*    value='Send'*/}
-        {/*    onClick={sendEmail}*/}
-        {/*    sx={{margin: "8px 0px 0px 0px"}}*/}
-        {/*  />*/}
-          <Typography variant='h7' sx={{margin: "8px 0px 8px 0px"}}>
-            Contact directly at ValentaCodes@gmail.com
-          </Typography>
-        {/*</Box>*/}
+      <Container sx={{ marginBottom: '5rem', paddingTop: '12px', fontSize: '20px' }}>
+        <Typography variant='h7' sx={{ margin: '8px 0px 8px 0px' }}>
+          Contact directly at ValentaCodes@gmail.com
+        </Typography>
       </Container>
     </>
   );

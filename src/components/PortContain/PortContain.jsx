@@ -1,13 +1,10 @@
 import { useState } from 'react';
 import Navbar from '../Navbar/Navbar';
-import Resume from '../../pages/Resume';
 import AboutMe from '../../pages/AboutMe';
 import Projects from '../../pages/Projects';
 import Home from '../../pages/Home';
-import diveIn from '../../assets/divein.png';
 import flickPick from '../../assets/flickpick.png';
 import moodLens from '../../assets/moodlens.png';
-import logicLounge from '../../assets/logicLounge.png';
 import { Stack } from '@mui/material';
 
 const content = [
@@ -19,20 +16,6 @@ const content = [
     about:
       'MoodLens leverages advanced artificial intelligence to analyze and rank the mood of your journal entries',
   },
-  // {
-  //   photo: logicLounge,
-  //   title: 'Logic Lounge',
-  //   repo: 'https://github.com/kfarshchian/Logic-Lounge',
-  //   site: 'https://logic-lounge-production.up.railway.app/',
-  //   about: 'A technical learning platform',
-  // },
-  // {
-  //   photo: diveIn,
-  //   title: 'DiveIn Boat Rentals',
-  //   repo: 'https://github.com/ValentaCodes/DiveIn',
-  //   site: 'https://divein-production.up.railway.app/',
-  //   about: 'Boat rentals, simplified.',
-  // },
   {
     photo: flickPick,
     title: 'Flick Picker',
@@ -49,20 +32,6 @@ function PortContain() {
     if (currentPage === 'About Me') {
       return <AboutMe />;
     }
-    // if (currentPage === 'Resume') {
-    //   return (
-    //     <>
-    //       <Stack
-    //         direction={'column-reverse'}
-    //         justifyContent='center'
-    //         alignItems='center'
-    //         my={4}
-    //       >
-    //         <Resume />
-    //       </Stack>
-    //     </>
-    //   );
-    // }
     if (currentPage === 'Projects') {
       return (
         <>

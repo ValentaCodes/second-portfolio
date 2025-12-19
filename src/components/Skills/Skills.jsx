@@ -1,5 +1,5 @@
 import {Box, Icon, Stack, Typography} from '@mui/material';
-import {SiCss3, SiGit, SiHtml5, SiJavascript, SiMongodb, SiMui, SiMysql, SiReact} from 'react-icons/si';
+import {SiCss3, SiGit, SiHtml5, SiJavascript, SiMongodb, SiMysql, SiReact} from 'react-icons/si';
 
 import {FaJava} from "react-icons/fa";
 import './Skills.css';
