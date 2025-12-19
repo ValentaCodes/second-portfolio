@@ -25,7 +25,6 @@ const Skills = () => {
                 <Box paddingTop={"6px"}>
                     <Typography variant='h5'>Other</Typography>
                     <ul>
-
                         <Icon className='icon'>
                             <SiReact/>
                         </Icon>
