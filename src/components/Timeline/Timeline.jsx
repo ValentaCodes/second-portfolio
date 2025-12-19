@@ -9,9 +9,8 @@ import {
   TimelineItem,
 } from '@mui/lab';
 import {
-  QuestionMarkOutlined, SchoolSharp,
-  SchoolTwoTone, SearchSharp, TimelineSharp, ViewTimelineRounded, ViewTimelineSharp,
-  Work, WorkHistory, WorkHistoryRounded, WorkHistoryTwoTone, WorkTwoTone,
+  SchoolSharp,
+  SearchSharp, WorkTwoTone,
 } from '@mui/icons-material';
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
